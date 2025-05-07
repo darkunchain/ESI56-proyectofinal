@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex _proyecto"] 0 "_proyecto.aux" "_proyecto.bbl" "_proyecto" 0 0
+["bibtex _proyecto"] 0 "_proyecto.aux" "_proyecto.bbl" "_proyecto" 1746661042.37417 0
   "C:/Users/lfprieto/AppData/Local/Programs/MiKTeX/bibtex/bst/apacite/apacite.bst" 1374952728 146156 9d7b79dbf9d91133318126032cff8c27 ""
   "_proyecto.aux" 0 -1 0 "pdflatex"
-  "cap1.aux" 1746660802 942 56e0061dbf241bdafe1e18f8b28cf931 "pdflatex"
-  "cap2.aux" 1746660802 942 ad433bf739ef7901fbe78c8cfd0a3d61 "pdflatex"
-  "cap3.aux" 1746660802 942 b8601e3fe4fdba725519558040351379 "pdflatex"
+  "cap1.aux" 1746661041 942 56e0061dbf241bdafe1e18f8b28cf931 "pdflatex"
+  "cap2.aux" 1746661041 942 ad433bf739ef7901fbe78c8cfd0a3d61 "pdflatex"
+  "cap3.aux" 1746661041 942 b8601e3fe4fdba725519558040351379 "pdflatex"
   "mibibliografia.bib" 0 -1 0 ""
   (generated)
   "_proyecto.bbl"
   "_proyecto.blg"
   (rewritten before read)
-["pdflatex"] 1746660802.72852 "p:/FERNANDO/Desarrollo/ESI56-proyectofinal/_proyecto.tex" "_proyecto.pdf" "_proyecto" 1746660804.29051 0
+["pdflatex"] 1746661039.5525 "p:/FERNANDO/Desarrollo/ESI56-proyectofinal/_proyecto.tex" "_proyecto.pdf" "_proyecto" 1746661042.37539 0
   "C:/Users/lfprieto/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1746659087 80937 91001db6d4ae332437b4b739862cda02 ""
   "C:/Users/lfprieto/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746659016 13159092 9196f3d88d31787a1f29973777ffc94a ""
   "C:/Users/lfprieto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -162,20 +162,20 @@
   "C:/Users/lfprieto/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Users/lfprieto/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/lfprieto/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "_proyecto.aux" 1746660803 482 7b532937c1bcd3f58f5109429dd3c4ba "pdflatex"
+  "_proyecto.aux" 1746661041 482 7b532937c1bcd3f58f5109429dd3c4ba "pdflatex"
   "_proyecto.bbl" 0 -1 0 "bibtex _proyecto"
-  "_proyecto.lof" 1746660803 60 4bc77563de10d0d8a2e6ee96a8d7a948 "pdflatex"
-  "_proyecto.lot" 1746660803 60 4bc77563de10d0d8a2e6ee96a8d7a948 "pdflatex"
-  "_proyecto.out" 1746660803 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "_proyecto.tex" 1746660798 1943 b8de62d8fe49c08dc64032de40faac2a ""
-  "_proyecto.toc" 1746660803 60 4bc77563de10d0d8a2e6ee96a8d7a948 "pdflatex"
-  "cap1.aux" 1746660803 942 56e0061dbf241bdafe1e18f8b28cf931 "pdflatex"
+  "_proyecto.lof" 1746661041 60 4bc77563de10d0d8a2e6ee96a8d7a948 "pdflatex"
+  "_proyecto.lot" 1746661041 60 4bc77563de10d0d8a2e6ee96a8d7a948 "pdflatex"
+  "_proyecto.out" 1746661041 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "_proyecto.tex" 1746661038 1955 d65b19f57cbeedeb34703a11a1c264b1 ""
+  "_proyecto.toc" 1746661041 60 4bc77563de10d0d8a2e6ee96a8d7a948 "pdflatex"
+  "cap1.aux" 1746661041 942 56e0061dbf241bdafe1e18f8b28cf931 "pdflatex"
   "cap1.tex" 1746660768 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "cap2.aux" 1746660803 942 ad433bf739ef7901fbe78c8cfd0a3d61 "pdflatex"
+  "cap2.aux" 1746661041 942 ad433bf739ef7901fbe78c8cfd0a3d61 "pdflatex"
   "cap2.tex" 1746660787 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "cap3.aux" 1746660803 942 b8601e3fe4fdba725519558040351379 "pdflatex"
+  "cap3.aux" 1746661041 942 b8601e3fe4fdba725519558040351379 "pdflatex"
   "cap3.tex" 1746660794 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "p:/FERNANDO/Desarrollo/ESI56-proyectofinal/_proyecto.tex" 1746660798 1943 b8de62d8fe49c08dc64032de40faac2a ""
+  "p:/FERNANDO/Desarrollo/ESI56-proyectofinal/_proyecto.tex" 1746661038 1955 d65b19f57cbeedeb34703a11a1c264b1 ""
   (generated)
   "_proyecto.aux"
   "_proyecto.lof"

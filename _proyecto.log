@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.7)  7 MAY 2025 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.7)  7 MAY 2025 18:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -779,13 +779,13 @@ Package rerunfilecheck Info: File `_proyecto.out' has not changed.
 Here is how much of TeX's memory you used:
  25393 strings out of 469941
  473181 string characters out of 5467979
- 845212 words of memory out of 5000000
+ 845224 words of memory out of 5000000
  51769 multiletter control sequences out of 15000+600000
  642017 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,105p,486b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lfprieto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/lfprieto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/lfprieto/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-Output written on _proyecto.pdf (4 pages, 75699 bytes).
+Output written on _proyecto.pdf (4 pages, 76550 bytes).
 PDF statistics:
  47 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
