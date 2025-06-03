@@ -1,0 +1,178 @@
+\documentclass[stu, 12pt, letterpaper,]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{times} % Fuente Times New Roman 12pt
+
+% Configuración de márgenes y papel
+\usepackage[letterpaper, left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm]{geometry}
+% Configuración de espaciado y párrafos
+\usepackage{setspace}
+\doublespacing% Interlineado doble
+\setlength{\parindent}{1.27cm} % Sangría de primera línea
+\setlength{\parskip}{0pt} % Sin espacio adicional entre párrafos
+\usepackage{ragged2e}
+\RaggedRight% Texto alineado a la izquierda sin justificación
+
+% Configuración de tablas y figuras
+\usepackage{caption}
+\captionsetup[table]{justification=raggedright, singlelinecheck=off, labelsep=space, font={doublespacing}}
+\captionsetup[figure]{justification=raggedright, singlelinecheck=off, labelsep=space, font={doublespacing}}
+
+% Configuración de encabezados
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\centering\bfseries\doublespacing}
+  {}{0pt}{\large}
+\titlespacing*{\chapter}{0pt}{0pt}{0pt} % Ajuste de espaciado para capítulos
+
+% Estilos para los 5 niveles de encabezados
+\titleformat{\section}
+  {\normalfont\bfseries\doublespacing\centering}
+  {}{0pt}{}
+\titlespacing*{\section}{0pt}{0pt}{0pt}
+
+\titleformat{\subsection}
+  {\normalfont\bfseries\doublespacing\raggedright}
+  {}{0pt}{}
+\titlespacing*{\subsection}{0pt}{0pt}{0pt}
+
+\titleformat{\subsubsection}
+  {\normalfont\bfseries\itshape\doublespacing\raggedright\/}
+  {}{0pt}{}
+\titlespacing*{\subsubsection}{0pt}{0pt}{0pt}
+
+\newcommand{\nivelcuatro}[1]{
+  \noindent
+  \hangindent=1.27cm
+  \textbf{#1.}\space
+}
+
+\newcommand{\nivelcinco}[1]{
+  \noindent
+  \hangindent=1.27cm
+  \textbf{\textit{#1.}}\space
+}
+
+% Numeración de páginas
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% Configuración de índice/tabla de contenido
+\usepackage[titles]{tocloft}
+\renewcommand{\cfttoctitlefont}{\normalfont\bfseries\centering\large}
+\renewcommand{\cftaftertoctitle}{\vspace*{\baselineskip}}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\setlength{\cftbeforechapskip}{0pt}
+\setlength{\cftchapindent}{0pt}
+\setlength{\cftsecindent}{1.27cm}
+\setlength{\cftsubsecindent}{2.54cm}
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsubsecfont}{\normalfont}
+
+\begin{document}
+
+% Numeración de páginas desde portada
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Portada
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    {\LARGE\textbf{TÍTULO DE LA TESIS}\par}
+    \vspace{1.5cm}
+    {\large Tesis presentada para optar al título de\par}
+    \vspace{2cm}
+    {\large\textbf{Tu Nombre}\par}
+    \vspace{1cm}
+    {\large Bajo la dirección de\par}
+    \vspace{2cm}
+    {\large Universidad\par}
+    {\large Facultad de\par}
+    {\large Departamento de\par}
+    {\large Ciudad, País\par}
+    {\large \today\par}
+\end{titlepage}
+
+% Tabla de contenido
+\tableofcontents
+\thispagestyle{fancy}
+\newpage
+
+% Lista de figuras y tablas (opcional)
+\listoffigures
+\thispagestyle{fancy}
+\listoftables
+\thispagestyle{fancy}
+
+% Resumen
+\chapter*{Resumen}
+\addcontentsline{toc}{chapter}{Resumen}
+\thispagestyle{fancy}
+\noindent
+Texto del resumen comenzando al margen izquierdo, sin sangría\ldots
+
+\vspace{0.5cm}
+\noindent
+\textbf{Palabras clave:} palabra1, palabra2, palabra3
+
+% Abstract
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\thispagestyle{fancy}
+\noindent
+English abstract text\ldots
+
+\vspace{0.5cm}
+\noindent
+\textbf{Keywords:} keyword1, keyword2, keyword3
+
+% Cuerpo principal
+\mainmatter% aqui va el cuerpo principal
+% Ejemplo de encabezados
+\chapter{Introducción} % Nivel 1
+Texto introductorio\ldots
+
+\section{Planteamiento del Problema} % Nivel 2
+Texto del planteamiento\ldots
+
+\subsection{Justificación} % Nivel 3
+Texto de justificación\ldots
+
+\nivelcuatro{Objetivo General} % Nivel 4
+Texto que continúa en la misma línea. Este es un ejemplo de cómo se vería un encabezado de nivel 4 según normas APA 7ma edición.
+
+\nivelcinco{Hipótesis} % Nivel 5
+Texto que continúa en la misma línea. Este es un ejemplo de cómo se vería un encabezado de nivel 5 según normas APA 7ma edición.
+
+% Ejemplo de tabla
+\begin{table}[h]
+\centering
+\caption{Ejemplo de tabla APA}
+\begin{tabular}{ll}
+\toprule
+Columna 1 & Columna 2 \\
+\midrule
+Dato 1 & Dato 2 \\
+Dato 3 & Dato 4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Ejemplo de figura
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{ejemplo.png}
+\caption{Ejemplo de figura APA}\label{fig:ejemplo}% label de la tabla
+\end{figure}
+
+% Bibliografía
+\backmatter% uso para la bibliografia
+\bibliography{referencias}
+
+\end{document}

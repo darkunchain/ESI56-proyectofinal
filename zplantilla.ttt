@@ -1,0 +1,14 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[h]
+\centering
+\caption{Ejemplo de tabla APA}
+\begin{tabular}{ll}
+\toprule
+Columna 1 & Columna 2 \\
+\midrule
+Dato 1 & Dato 2 \\
+Dato 3 & Dato 4 \\
+\bottomrule
+\end{tabular}
+\end{table*}

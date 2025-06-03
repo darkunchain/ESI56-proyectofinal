@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Resumen}{2}{Doc-Start}%
+\contentsline {chapter}{Abstract}{2}{Doc-Start}%
+\contentsline {section}{Planteamiento del Problema}{2}{section*.1}%
+\contentsline {subsection}{Justificación}{2}{section*.1}%

@@ -1,0 +1,7 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[h]
+\centering
+\includegraphics[width=0.5\textwidth]{ejemplo.png}
+\caption{Ejemplo de figura APA}\label{fig:ejemplo}% label de la tabla
+\end{figure*}
